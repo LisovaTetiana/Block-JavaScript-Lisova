@@ -1,14 +1,17 @@
-//Якщо змінні більше нуля - виведіть true, меньша - false
-//Перевірте це на варіантах 1, 0,-3.
+//--1--
+//Є масив обєктів fruits, і в кожному з них є name
+//Написати код, який перевертає їх в масив імен
 
-/*const numbers = -3;
+const fruts = [
+  {id: 0, name: "Apple"},
+  {id: 1, name: "Tomat"},
+  {id: 2, name: "Cherry"},
+  {id: 3, name: "Orange"},
+];
+let result = fruts.map((item) => item.name);
+console.log(result); 
+ 
 
-  if (numbers > 0) {
-    console.log(true);
-  } else {
-    console.log(false);
-  }
-*/
 
 //Якщо змінна ="test"-вініміть true,
 //Перевірте це на варіантах "test", "qwerty", true.
